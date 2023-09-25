@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">AM's.</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" style="--i: 1" class="active">Home</a>
+            <a href="#about" style="--i: 2">About</a>
+            <a href="#skills" style="--i: 3">Skills</a>
+            <a href="#portfolio" style="--i: 4">Portfolio</a>
+            <a href="#contact" style="--i: 5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Abhijit Motekar</h1>
+            <h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+            <p>
+                I am currently pursuing a B.Tech degree in Computer Science at Pimpri Chinchwad College of Engineering, Pune
+              </p>
+              <div class="social-media">
+                <a href="https://github.com/AbhijitMotekar99" style="--i: 7"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a href="https://twitter.com/AbhijitMotekar" style="--i: 8"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/abhijit.motekar/" style="--i: 9"
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/abhijit-motekar-46017022a"
+                  style="--i: 10"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </div>
+            <a href="CV Resume.pdf" class="btn" id="downloadBtn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home.png" alt="My Portfolio" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <div class="columns">
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li><strong>B.Tech in Computer Science</strong><br> Pimpri Chinchwad College of Engineering, Pune<br> (2021-2025)</li>
+                        <br>
+                        <li><strong>HSC (12th)</strong><br> Sahakar Vidya Mandir, Pune<br> (2020-2021)<br> Score: 92%</li>
+                        <br>
+                        <li><strong>SSC (10th)</strong><br> Bharat Vidhyalaya, Buldhana<br> (2019-2020)<br> Score: 88%</li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>Experience</h3>
+                    <p><strong>Web Development and Designing Intern</strong><br> Osis Infobyte<br> September 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My Skills</h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C++  <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Creativity <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Problem Solving <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Communication <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Teamwork <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Photoshop <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Screenshot 2023-08-16 004746.png" alt="Project 1" />
+                <div class="portfolio-layer">
+                    <h4>Amazon Clone</h4>
+                    <p>This is a Amazon Home page clone</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project2.jpg" alt="Project 2" />
+                <div class="portfolio-layer">
+                    <h4>E-commerce App</h4>
+                    <p>Developed a responsive e-commerce application for online shopping.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project3.jpg" alt="Project 3" />
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Designed and developed a personal portfolio website from scratch.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <div class="contact-form">
+            <form action="contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Abhijit Motekar | All rights Resevered. motekarabhijit@gmail.com</p>
+          </div>
+          <div class="footer-icontop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+          </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
